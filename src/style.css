@@ -1,0 +1,114 @@
+@import 'normalize.css';
+@import 'index.css';
+@import 'aboutme.css';
+@import 'contact.css';
+@import 'portfolio.css';
+
+@font-face {
+    font-family: 'LeagueSpartanVariable';
+    src: url('../fonts/LeagueSpartanVariable.ttf') format('truetype'); 
+    font-weight: 200 900;
+}
+
+@font-face {
+    font-family: 'BandeinsSansVariableGX';
+    src: url('../fonts/BandeinsSansVariableGX.ttf') format('truetype');
+    font-weight: 200 900;
+
+}
+
+a { 
+    color:rgb(2, 138, 138);}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color:rgb(2, 138, 138); }    
+
+div.footer{
+    background-color: rgb(245, 245, 245);
+    margin: 0 auto;
+    max-width: 25rem;
+    padding: 1rem;
+    }
+
+
+
+h1 {
+    font-weight: 870;
+}
+
+h2 {
+    font-family: 'LeagueSpartanVariable' ;
+    font-weight: 650;
+}
+
+h3 {
+    font-family: 'LeagueSpartanVariable';
+    font-weight: 300;
+}
+
+header{
+    color: teal;
+    text-align: center;
+    font-family: 'LeagueSpartanVariable';
+    font-weight: 600;
+    font-size: 3.5rem; 
+    padding: 1.5rem 0 0;
+}
+
+html {
+    font-family: 'LeagueSpartanVariable';
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+} /*Do not delete this. This makes sure that all the images are in perfect proportion*/
+
+
+img.linkedin {
+    width: 5%;
+    height: 5%;
+}
+
+
+img.insta {
+    width: 5%;
+    height: 5%;
+}
+
+
+
+ul li{
+    display: inline;
+   font-family: 'BandeinsSansVariableGX', 'Times New Roman';
+   font-size: 1.2rem;
+   font-weight: 600;
+   list-style: none;
+   text-align: center;
+   text-transform: uppercase;
+   padding: .1rem;
+
+}   
+
+ul {
+    border-bottom: .01rem solid #E7E5E5;
+    color: white;
+    margin: 1.5rem auto;
+    max-width: 25rem;
+    padding: .5rem .4rem;
+   
+}
+
+
+p {
+
+    font-family: 'BandeinsSansVariableGX' 
+}
+
+

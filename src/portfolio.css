@@ -1,0 +1,34 @@
+div.portfolio__header {
+    margin: .5rem 0;
+}
+
+div.portfolio___portrait, div.portfolio___illustrator,div.portfolio__sports, div.portfolio__website{
+    border-bottom: .02rem solid #E7E5E5;
+    background-color: white;
+    padding: 0 0 1rem;
+    margin: 0rem auto;
+    max-width: 23rem;
+    
+}
+
+
+
+
+div.portfolio___header,div.aboutme_head, div.portrait__header,div.illustrator-header, div.sports__header{
+    font-size: 1.5rem;
+    padding: 0rem 1rem;
+    max-width: 23rem;
+
+}
+
+div.categories__gene, div.categories__paint, div.categories__pattern1, div.categories__pattern2, div.categories__pattern3, div.portrait__city, div.portrait__ballet, div.portrait__pink, div.portrait__mixed, div.portrait__retro, div.portrait__flashlight, div.sports__mbb, div.sports__wbb,div.sports__squash, div.sports__highschoolbb, div.website__home, div.website__second, div.website__error{
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 4px 3.5px 20px 2px #E7E5E5;
+    font-weight: 500;
+    margin: 1.15rem auto;
+    max-width: 23rem;
+    padding: .5rem 2rem;
+    text-align: center;
+}
+

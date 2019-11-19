@@ -9,51 +9,95 @@
 </head>
 
 <header>
-    <a href="index.html" target="_blank"><h1>Leanne Chin</h1> </a>
+    <a href="index.html" target="_blank">Leanne Chin</a>
 </header>
 
 <nav>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="aboutme.html" >About Me</a></li>
-        <li><a href="portfolio.html" >Portfolio</a></li>
-            <ul>
-                <li><a href="illustratorcontent.html">Illustrator</a></li>
-                <li><a href="portrait.html">Portrait Photogrpahy</a></li>
-                <li><a href="sports.html">Sports Photography</a></li>
-                <li><a href="websiteredesign.html">Website Redesign</a></li>
-            </ul>
-        <li> <a href="https://drive.google.com/file/d/18Q5QarpPlW7xvYzoblQhB2wgR-EbpU6D/view?usp=sharing" target="_blank">Resume</a></li>    
+        <li><a href="index.html">Home /</a></li>
+        <li><a href="aboutme.html" >About /</a></li>
+        <li><a href="portfolio.html" >Portfolio /</a></li> 
         <li> <a href="contact.html" >Contact</a> </li>
     </ul>
 </nav>
 
 <body>
 
+    <div class="contactinfo">
+        
+        <div class="contactinfo__header">
+            <h2>Contact</h2>
+        </div>
+        
+        <div class="contactinfo__contact">
+            
+            <div class="button__clicklinkedin">
+                    <a href="https://www.linkedin.com/in/leanne-chin/" target="_blank">LinkedIn </a> 
+            </div>
 
-    <h2>Contact Information</h2>
+                <br>
+                
+            <div class="button__clickmail">
+                    <a href="mailto:leannec2218@gmail.com">Email Me</a> 
+            </div>
 
-    <p> LinkdIn: https://www.linkedin.com/in/leanne-chin/</p>
+        </div>
 
-    <p> Email: leannec2218@gmail.com</p> 
+    </div>
 
-    <form>
 
-        <input type="text" name="email" value="Email">
-            <br><br>
-        <input type="text" name="description" value="Description">
-            <br><br>
-        <input type="text" name="Type" value="Type Here">
+    <!-- Learned how to create forms from code academy but refreshed from W3Schools. Wondering how to make text box bigger for people to add description. How do I make the value dissapear when people type? how can I make the submit button work?
+    
 
-    </form>
+     Got code from W33Schools, but modified to be used for this project -->
 
-    <!-- Learned how to create forms from code academy but refreshed from W3Schools. Wondering how to make text box bigger for people to add description. How do I make the value dissapear when people type? how can I make the submit button work?-->
 
-    <br>
 
-    <button>
-        <input type="button" value="Submit">
-    </button>
+    <div class="container">
 
+        <form action="/action_page.php">
+
+            <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+              
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+              
+            <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Message</label>
+                    </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+            </div>
+            
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+ 
 </body>
 </html>
